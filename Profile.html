@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Syair Arab</title>
+  </head>
+  <body>
+    <header>
+      <h1>Syair<span>Arab</span></h1>
+    </header>
+    <main>
+      <div class="sidebar card">
+        <h1>Syair<span>Arab</span></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Dashboard.html">Dashboard</a></li>
+          <li><a href="#Profile">Profile</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+      </div>
+      <div id="Profile" class="content card">
+        <form>
+          <table>
+            <tr>
+              <td>
+                <h2>Form Input Biodata</h2>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="nama">Nama Lengkap</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="nama" id="nama" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tempatTanggalLahir">Tempat, Tanggal Lahir</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="nama" />,
+                <input type="date" name="tgl" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="alamat">Alamat</label></td>
+              <td>:</td>
+              <td>
+                <textarea
+                  name="alamat"
+                  id="alamat"
+                  cols="40"
+                  rows="3"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="telpon">No. Telp/HP</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="telpon" id="telpon" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="jenisKelamin">Jenis Kelamin</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="radio"
+                  name="jenisKelamin"
+                  value="Laki-Laki"
+                  id="laki"
+                />
+                <label for="laki">LakiLaki</label>
+                <input
+                  type="radio"
+                  name="jenisKelamin"
+                  value="Perempuan"
+                  id="perempuan"
+                />
+                <label for="perempuan">Perempuan</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="agama">Agama</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" size="20" name="agama" id="agama" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="hoby">Hoby</label></td>
+              <td>:</td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="bacabuku"
+                  value="Baca Buku"
+                />
+                <label for="bacabuku">Baca Buku</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="olahraga"
+                  value="Olah Raga"
+                />
+                <label for="olahraga">Olah Raga</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="maingame"
+                  value="Main Game"
+                />
+                <label for="maingame">Main Game</label>
+                <input
+                  type="checkbox"
+                  name="hoby[]"
+                  id="traveling"
+                  value="traveling"
+                />
+                <label for="traveling">Traveling</label>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>
+                <input type="submit" name="submit" value="Submit" />
+                <input type="reset" name="reset" value="Clear!" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright @ 2024 IndraKurniadi</p>
+    </footer>
+  </body>
+</html>
